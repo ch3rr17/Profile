@@ -40,8 +40,6 @@ gulp.task('hello', function() {
 });
 
 
-
-
 // Watch
 gulp.task('watch', function() {
     gulp.watch(jsSources, ['js']);
@@ -50,11 +48,11 @@ gulp.task('watch', function() {
 });
 
 gulp.task('injectables', function() {
-    var sources = gulp.src(paths, { read: false });
+    var sources = gulp.src(paths, { read: false }, {relative: true});
     return gulp.src('index.html')
         .pipe(wiredep())
         .pipe(inject(sources))
-        .pipe(gulp.dest('.'));
+        .pipe(gulp.dest('./app'));
 });
 
 gulp.task('js', function() {
