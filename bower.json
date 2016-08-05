@@ -1,12 +1,12 @@
 {
   "name": "portfolio_v1",
   "description": "portofolio copy",
-  "main": "index.html",
+  "main": "gulpfile.js",
   "authors": [
     "ch3rr17 <cherr.batac@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/ch3rr17/03-MortgageCalculator",
+  "homepage": "https://github.com/ch3rr17/portfoliov1",
   "ignore": [
     "**/.*",
     "node_modules",
