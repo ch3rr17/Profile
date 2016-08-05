@@ -15,5 +15,14 @@
     "gulp-open": "^2.0.0",
     "gulp-util": "^3.0.7",
     "wiredep": "^4.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch3rr17/portfoliov1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ch3rr17/portfoliov1/issues"
+  },
+  "homepage": "https://github.com/ch3rr17/portfoliov1#readme"
 }
