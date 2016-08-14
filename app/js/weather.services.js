@@ -23,7 +23,7 @@
             var defer = $q.defer();
             var url = 'http://api.openweathermap.org/data/2.5/weather';
             $http({
-                method: 'GET',
+                method: 'jsonp',
                 url: url,
                 params: {
                     q: city,
